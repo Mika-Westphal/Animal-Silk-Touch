@@ -1,0 +1,16 @@
+enabledAnimals:
+  PIG: true
+  COW: true
+  CHICKEN: true
+  SHEEP: true
+  DOLPHIN: true
+  DONKEY: true
+  HORSE: true
+  RABBIT: true
+  WOLF: true
+  VILLAGER: true
+  TURTLE: true
+  TROPICAL_FISH: true
+  SQUID: true
+  POLAR_BEAR: true
+  OCELOT: true

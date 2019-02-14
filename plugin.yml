@@ -3,3 +3,7 @@ version: 1.0
 main: me.igamblenull.animalsilktouch.main
 author: IGambleNull
 api-version: 1.13
+commands:
+  animalsilk:
+    usage: /animalsilk reload
+    description: Reload the config
