@@ -17,19 +17,19 @@ public class commandReloadConfig implements CommandExecutor {
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-		if(args.length == 0) {
+		if(args.length != -1) {
 			if(args[0].equalsIgnoreCase("reload")) {
 				if(sender instanceof Player) {
 					Player p = (Player) sender;	
 					if(p.hasPermission("AnimalSilkTouch.reload")) {
 						plugin.reloadConfig();
-						p.sendMessage("§aAnimal Silk Touch reloaded!");
+						p.sendMessage("Â§aAnimal Silk Touch reloaded!");
 					}else {
-						p.sendMessage("§4You don't have permission to use this command!");
+						p.sendMessage("Â§4You don't have permission to use this command!");
 					}
 				}else {
 					plugin.reloadConfig();
-					sender.sendMessage("§aAnimal Silk Touch reloaded!");
+					sender.sendMessage("Â§aAnimal Silk Touch reloaded!");
 				}
 			}
 		}
