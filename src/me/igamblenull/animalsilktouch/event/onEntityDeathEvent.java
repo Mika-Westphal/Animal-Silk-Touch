@@ -115,21 +115,21 @@ public class onEntityDeathEvent implements Listener {
 						}
 						
 					case SQUID:
-						if(plugin.getConfig().getBoolean("enabledAnimals.")) {
+						if(plugin.getConfig().getBoolean("enabledAnimals.SQUID")) {
 							disableMobDrops(e);
 							e.getDrops().add(new ItemStack(Material.SQUID_SPAWN_EGG));
 							break;
 						}
 						
 					case POLAR_BEAR:
-						if(plugin.getConfig().getBoolean("enabledAnimals.")) {
+						if(plugin.getConfig().getBoolean("enabledAnimals.POLAR_BEAR")) {
 							disableMobDrops(e);
 							e.getDrops().add(new ItemStack(Material.POLAR_BEAR_SPAWN_EGG));
 							break;
 						}
 						
 					case OCELOT:
-						if(plugin.getConfig().getBoolean("enabledAnimals.")) {
+						if(plugin.getConfig().getBoolean("enabledAnimals.OCELOT")) {
 							disableMobDrops(e);
 							e.getDrops().add(new ItemStack(Material.OCELOT_SPAWN_EGG));
 							break;
